@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import {Button}  from '@material-ui/core';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Button color="primary" variant="contained" >BUTTON</Button><br/><br/>
+    <Button color="primary" variant="outlined" >BUTTON</Button><br/><br/>
+    <Button color="primary"  >BUTTON</Button><br/><br/>
+    <Button color="secondary" variant="outlined"  >-</Button>
+    <Button color="primary" variant="outlined"  >+</Button>
+    <Button color="primary" variant="outlined"  ></Button><br/><br/>
+    <Button color="secondary" size="large" variant="contained"  >-</Button>
+    <Button color="primary" size="small" variant="contained"  >+</Button>
+    <Button color="secondary" size="medium" variant="outlined"  >+</Button>
+
+    
     </div>
   );
 }
